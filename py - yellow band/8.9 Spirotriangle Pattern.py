@@ -14,10 +14,9 @@ def draw_spiro_triangle(side_length, depth):
         turtle.right(angle)
 
 # Set up the turtle
-turtle.speed(0)  # Set the speed to maximum
+turtle.speed(0) 
 
 # Draw the spiro triangle
 draw_spiro_triangle(100, 10)
 
-# Keep the window open
 turtle.done()
