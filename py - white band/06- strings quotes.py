@@ -1,12 +1,12 @@
 # Using single quotes and escaping single quote inside the string
-example1 = 'doesn\'t'  # Use \' to escape the single quote
+example1 = 'doesn\'t' 
 
 # Using double quotes to avoid the need for escaping single quotes
 example2 = "doesn't"
 
 # Repeating the example to show consistency
-example3 = "doesn't"  # Using double quotes
-example4 = "doesn't"  # Using double quotes again
+example3 = "doesn't"  
+example4 = "doesn't"  
 
 # Using double quotes to include quoted speech
 example5 = '"Yes," they said.'
