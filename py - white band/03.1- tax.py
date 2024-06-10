@@ -1,5 +1,3 @@
-''' Calculating Tax'''
-
 amount = int(input("Enter amount: "))
 tax_percent = 18
 tax_amount = amount * (tax_percent / 100)
