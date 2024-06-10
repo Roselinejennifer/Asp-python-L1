@@ -1,11 +1,7 @@
 import turtle
-
-#Get type of smile to draw
 smile_type = input('What type of smiley do you want to draw (happy, sad, surprised)?')
-
 #Initialize turtle
 t = turtle.Turtle()
-
 #Draw happy smile if smile type is happy
 if smile_type == "happy":
     # Draw the head
@@ -65,7 +61,5 @@ elif smile_type == "surprised":
     t.goto(0, 5)
     t.pendown()
     t.circle(20)
-
-#If none of the above smile types are chosen print this statement
 else:
     print("Invalid smiley type. Please choose either happy, sad, or surprised.")
