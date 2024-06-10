@@ -1,5 +1,4 @@
 word = 'Python'
-# character in position 0
 print(word[0])
 print(word[5])
 print(word[-1])
