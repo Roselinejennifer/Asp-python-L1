@@ -51,8 +51,6 @@ def get_grade():
 
     print(f"The student's grade is: {grade}")
 
-
-# Main function to run the calculator and grade functions
 def main():
     while True:
         print("\nMain Menu")
@@ -71,8 +69,5 @@ def main():
             break
         else:
             print("Invalid choice. Please select again.")
-
-
-# Run the main function
 if __name__ == "__main__":
     main()
