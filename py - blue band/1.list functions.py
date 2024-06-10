@@ -1,35 +1,35 @@
 # Initialize a sample list
 my_list = [1, 2, 3, 4, 5]
 
-# append(): Add an element to the end of the list
+# append()
 my_list.append(6)
 
-# extend(): Extend the list by appending elements from another list
+# extend()
 another_list = [7, 8, 9]
 my_list.extend(another_list)
 
-# insert(): Insert an element at a specific index
-my_list.insert(2, 10)  # Inserting 10 at index 2
+# insert()
+my_list.insert(2, 10)  
 
-# remove(): Remove the first occurrence of a value from the list
-my_list.remove(3)  # Removing the value 3
+# remove()
+my_list.remove(3) 
 
-# pop(): Remove and return the element at a specific index (or the last element if no index is specified)
-popped_element = my_list.pop(4)  # Removing and returning the element at index 4
+# pop()
+popped_element = my_list.pop(4)  
 
-# index(): Return the index of the first occurrence of a value
+# index()
 index_of_4 = my_list.index(4)
 
-# count(): Return the number of occurrences of a value in the list
+# count()
 count_of_2 = my_list.count(2)
 
-# reverse(): Reverse the elements of the list (in-place)
+# reverse()
 my_list.reverse()
 
-# sort(): Sort the elements of the list in ascending order (in-place)
+# sort()
 my_list.sort()
 
-# copy(): Create a shallow copy of the list
+# copy()
 copied_list = my_list.copy()
 
 # Using for Loop to Iterate Through a List
@@ -45,8 +45,6 @@ for index, item in enumerate(my_list):
 while my_list:
     print(my_list.pop(), end=' ')
 print()
-
-
 
 # Creating a List of Squares
 squares = [x**2 for x in range(1, 6)]
